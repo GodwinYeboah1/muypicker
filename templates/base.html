@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base</title>
+</head>
+<body>
+    <h1>MuyPicky.com</h1>
+    <nav>
+        <ol>
+        <li><a href="/home/">home</a></li>
+        <li><a href="/home2/">home2</a></li>
+        <li><a href="/home3/">home3</a></li>
+        </ol>
+    </nav>
+   <!-- placing the block of content i have in home2 -->
+    <div class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+</body>
+</html>
